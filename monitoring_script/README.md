@@ -1,7 +1,7 @@
 # check_disk_space.sh
 
 ## Description
-Le script **`check_disk_space.sh`** est un utilitaire Bash simple et efficace permettant de **surveiller l’utilisation de l’espace disque** sur un système Linux, macOS ou **Windows (via WSL)**.  
+Le script **`monitoring_disque.sh`** est un utilitaire Bash simple et efficace permettant de **surveiller l’utilisation de l’espace disque** sur un système Linux, macOS ou **Windows (via WSL)**.  
 
 Il vérifie chaque partition montée, compare le taux d’utilisation avec un **seuil critique** défini, et :  
 - Affiche un **message d’alerte** si ce seuil est dépassé,  
@@ -14,7 +14,7 @@ Il vérifie chaque partition montée, compare le taux d’utilisation avec un **
 
 - Analyse automatique de toutes les partitions montées (`df -h`).  
 - Alerte lorsque le taux d’utilisation dépasse un seuil critique configurable (ex. 80%).  
-- Journalisation des résultats dans un fichier log (`disk_space.log`).  
+- Journalisation des résultats dans un fichier log (`espace_disque.log`).  
 - Ajout d’un horodatage pour chaque vérification.  
 - Compatible Linux, macOS et WSL (Windows 10/11).  
 
