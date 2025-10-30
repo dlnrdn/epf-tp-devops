@@ -1,0 +1,4 @@
+[2025-10-30 09:36:55] Démarrage de la rotation des logs dans C:\Users\dln\Desktop\tp-devops\log_rotate_script
+[2025-10-30 09:36:55] 🧹 Suppression des logs plus vieux que 7 jours...
+[2025-10-30 09:36:55] ✅ Nettoyage terminé.
+[2025-10-30 09:36:55] --- Fin du script log_rotate.sh ---
