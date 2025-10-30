@@ -1,7 +1,5 @@
 #!/bin/bash
 # ================================================
-# Script : log_rotate.sh
-# Auteur : Dylan (BTS SIO SISR)
 # Objectif : Faire tourner les logs d’un dossier,
 #            supprimer les anciens ou trop volumineux
 # ================================================
